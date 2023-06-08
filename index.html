@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prototype Chain - Animal Themes</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Prototype Chain - Animal Themes</h1>
+
+  <div id="animal-container">
+    <div id="dog" class="animal-card">
+      <h2>Dog</h2>
+      <div class="animal-image dog-image"></div>
+      <button onclick="dog.sound()">Make Sound</button>
+      <button onclick="dog.bark()">Bark</button>
+    </div>
+    <div id="cat" class="animal-card">
+      <h2>Cat</h2>
+      <div class="animal-image cat-image"></div>
+      <button onclick="cat.sound()">Make Sound</button>
+      <button onclick="cat.meow()">Meow</button>
+    </div>
+    <div id="lion" class="animal-card">
+      <h2>Lion</h2>
+      <div class="animal-image lion-image"></div>
+      <button onclick="lion.sound()">Make Sound</button>
+      <button onclick="lion.roar()">Roar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+#animal-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .animal-card {
+    width: 250px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .animal-image {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    margin: 10px auto;
+  }
+  
+  .dog-image {
+    background-image: url('dog.jpg');
+  }
+  
+  .cat-image {
+    background-image: url('cat.jpg');
+  }
+  
+  .lion-image {
+    background-image: url('lion.jpg');
+  }
+  
